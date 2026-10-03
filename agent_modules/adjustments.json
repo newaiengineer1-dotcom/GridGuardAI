@@ -1,0 +1,79 @@
+{
+  "_updated": "2026-10-03",
+  "_comment": "Monthly FCA and quarterly QTA (Rs per unit) as reported from NEPRA decisions. FCA is billed 2 months after the fuel month. Verify against the NEPRA notification and edit/add months here. 'proposed' means NEPRA had not decided yet.",
+  "2026-06": {
+    "fca": 1.19,
+    "fca_for": "April 2026",
+    "qta": -1.98,
+    "qta_for": "Q1 2026 (billed Jun-Aug)",
+    "fca_exempt": [
+      "lifeline"
+    ],
+    "qta_exempt": [
+      "lifeline"
+    ],
+    "status": "approved",
+    "source": "NEPRA decisions as reported in the press (Jun 2026)"
+  },
+  "2026-07": {
+    "fca": 0.3364,
+    "fca_for": "May 2026",
+    "qta": -1.98,
+    "qta_for": "Q1 2026 (billed Jun-Aug)",
+    "fca_exempt": [
+      "lifeline"
+    ],
+    "qta_exempt": [
+      "lifeline"
+    ],
+    "status": "approved",
+    "source": "NEPRA notification of 8-9 Jul 2026 (Business Recorder, Profit)"
+  },
+  "2026-08": {
+    "fca": 0.7503,
+    "fca_for": "June 2026",
+    "qta": -1.98,
+    "qta_for": "Q1 2026 (billed Jun-Aug)",
+    "fca_exempt": [
+      "lifeline",
+      "protected"
+    ],
+    "qta_exempt": [
+      "lifeline"
+    ],
+    "status": "approved",
+    "source": "NEPRA decision of 7 Aug 2026 (Tribune, MEPCO guide)"
+  },
+  "2026-09": {
+    "fca": 2.0581,
+    "fca_for": "July 2026",
+    "qta": 0.5194,
+    "qta_for": "Q2 2026 (billed Sep-Nov)",
+    "fca_exempt": [
+      "lifeline"
+    ],
+    "qta_exempt": [
+      "lifeline"
+    ],
+    "status": "approved",
+    "source": "NEPRA Decision 04-Sep-2026; QTA notified via S.R.O. 1501(I)/2026 dated 07-Sep-2026; FCA notification S.R.O. 1499(I)/2026",
+    "source_url_qta": "https://nepra.org.pk/tariff/Tariff/Notifications/2026/09%20Sep/SRO%201501%28I%29-2026%20Dated%2007-09-2026.pdf",
+    "source_url_fca": "https://nepra.org.pk/tariff/Tariff/Notifications/2026/09%20Sep/SRO%201499%28I%29-2026%20Dated%2007-09-2026.pdf",
+    "notes": "QTA notification exempts lifeline, incremental-consumption-package billed units and prepaid consumers; this version models lifeline exemption and flags the other categories as not separately captured."
+  },
+  "2026-10": {
+    "fca": 1.7267,
+    "fca_for": "August 2026",
+    "qta": 0.5194,
+    "qta_for": "Q2 2026 (billed Sep-Nov)",
+    "fca_exempt": [
+      "lifeline"
+    ],
+    "qta_exempt": [
+      "lifeline"
+    ],
+    "status": "proposed",
+    "source": "CPPA-G request for August 2026 heard by NEPRA on 29-Sep-2026; final notified value must be verified before use",
+    "source_url": "https://nepra.org.pk/"
+  }
+}
